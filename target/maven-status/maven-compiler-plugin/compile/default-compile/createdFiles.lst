@@ -1,6 +1,8 @@
+com\kamu\akys\anket\repository\GroupMemberRepository.class
 com\kamu\akys\anket\exception\GlobalExceptionHandler.class
 com\kamu\akys\anket\repository\AnswerRepository.class
 com\kamu\akys\anket\entity\User.class
+com\kamu\akys\anket\config\OpenApiConfig.class
 com\kamu\akys\anket\entity\Answer.class
 com\kamu\akys\anket\entity\SurveyResponse.class
 com\kamu\akys\anket\config\SecurityConfig.class
@@ -20,7 +22,9 @@ com\kamu\akys\anket\dto\SurveyResponseDto.class
 com\kamu\akys\anket\repository\SurveyResponseRepository.class
 com\kamu\akys\anket\dto\AnswerDto.class
 com\kamu\akys\anket\auth\AuthService.class
+com\kamu\akys\anket\repository\GroupRepository.class
 com\kamu\akys\anket\controller\SurveyResponseController.class
+com\kamu\akys\anket\entity\GroupMember.class
 com\kamu\akys\anket\controller\SurveyController.class
 com\kamu\akys\anket\repository\SurveyRepository.class
 com\kamu\akys\anket\entity\Survey.class
@@ -31,4 +35,7 @@ com\kamu\akys\anket\service\UserService.class
 com\kamu\akys\anket\BackendApplication.class
 com\kamu\akys\anket\service\ChoiceService.class
 com\kamu\akys\anket\controller\ChoiceController.class
+com\kamu\akys\anket\entity\Group.class
+com\kamu\akys\anket\controller\QuestionController$CreateQuestionRequest.class
+com\kamu\akys\anket\controller\GroupController.class
 com\kamu\akys\anket\repository\ChoiceRepository.class
